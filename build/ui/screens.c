@@ -27,6 +27,7 @@ void create_screen_pomodoro() {
     objects.pomodoro = obj;
     lv_obj_set_pos(obj, 0, 0);
     lv_obj_set_size(obj, 960, 540);
+    lv_obj_set_style_bg_color(obj, lv_color_hex(0xffffff), LV_PART_MAIN | LV_STATE_DEFAULT);
     {
         lv_obj_t *parent_obj = obj;
         {
@@ -74,7 +75,7 @@ void create_screen_pomodoro() {
             // timer
             lv_obj_t *obj = lv_label_create(parent_obj);
             objects.timer = obj;
-            lv_obj_set_pos(obj, 187, 195);
+            lv_obj_set_pos(obj, 187, 203);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
             lv_obj_set_style_text_font(obj, &ui_font_inter_bold_200pt, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_color(obj, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -85,7 +86,7 @@ void create_screen_pomodoro() {
             // pomodoro_stage
             lv_obj_t *obj = lv_label_create(parent_obj);
             objects.pomodoro_stage = obj;
-            lv_obj_set_pos(obj, 387, 146);
+            lv_obj_set_pos(obj, 387, 154);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
             lv_obj_set_style_text_font(obj, &ui_font_inter_medium_24pt, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_color(obj, lv_color_hex(0xbfbfbf), LV_PART_MAIN | LV_STATE_DEFAULT);
