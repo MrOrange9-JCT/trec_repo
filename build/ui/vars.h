@@ -13,10 +13,17 @@ extern "C" {
 // Flow global variables
 
 enum FlowGlobalVariables {
-    FLOW_GLOBAL_VARIABLE_NONE
+    FLOW_GLOBAL_VARIABLE_CURRENT_TIME = 0
 };
 
 // Native global variables
+
+extern const char *get_var_battery_level();
+extern void set_var_battery_level(const char *value);
+extern const char *get_var_screen_title();
+extern void set_var_screen_title(const char *value);
+extern const char *get_var_current_time();
+extern void set_var_current_time(const char *value);
 
 #ifdef __cplusplus
 }

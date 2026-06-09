@@ -25,7 +25,7 @@ typedef struct _objects_t {
     lv_obj_t *current_time;
     lv_obj_t *battery;
     lv_obj_t *dot_0;
-    lv_obj_t *dot_1;
+    lv_obj_t *dot_3;
     lv_obj_t *dot_2;
 } objects_t;
 
