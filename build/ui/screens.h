@@ -20,13 +20,14 @@ typedef struct _objects_t {
     lv_obj_t *title;
     lv_obj_t *top_line;
     lv_obj_t *bottom_line;
-    lv_obj_t *timer;
-    lv_obj_t *pomodoro_stage;
     lv_obj_t *current_time;
     lv_obj_t *battery;
+    lv_obj_t *bottom_dots;
     lv_obj_t *dot_0;
-    lv_obj_t *dot_3;
+    lv_obj_t *dot_1;
     lv_obj_t *dot_2;
+    lv_obj_t *pomodoro_stage;
+    lv_obj_t *timer;
 } objects_t;
 
 extern objects_t objects;

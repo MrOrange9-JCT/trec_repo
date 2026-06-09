@@ -1,7 +1,7 @@
 {
   "navigation": {
     "selectedUserPageObject": "[TREC.eez-project]:/userPages/0",
-    "selectedFontObject": "[TREC.eez-project]:/fonts/0",
+    "selectedFontObject": "[TREC.eez-project]:/fonts/1",
     "subnavigationSelectedItems": {}
   },
   "layoutModel": {
@@ -22,6 +22,7 @@
           },
           {
             "type": "border",
+            "selected": 1,
             "size": 240,
             "location": "right",
             "children": [
@@ -163,7 +164,8 @@
                       "enableClose": false,
                       "icon": "svg:hierarchy"
                     }
-                  ]
+                  ],
+                  "active": true
                 },
                 {
                   "type": "tabset",
@@ -214,8 +216,7 @@
                   },
                   "icon": "svg:page"
                 }
-              ],
-              "active": true
+              ]
             },
             {
               "type": "row",
@@ -1079,15 +1080,18 @@
       "selectionBack": {
         "0": {
           "0": {},
-          "1": {}
+          "1": {},
+          "7": {
+            "$selected": true
+          }
         }
       },
       "transform": {
         "translate": {
-          "x": -480,
-          "y": -270
+          "x": -435.5599478258061,
+          "y": -305.31105753699023
         },
-        "scale": 1
+        "scale": 0.75
       },
       "timeline": {
         "isEditorActive": false,
@@ -1114,7 +1118,7 @@
   "lvglExpandedPropertiesGroup": [],
   "showInactiveFlowsInDebugger": true,
   "globalFlowZoom": true,
-  "flowZoom": 1,
+  "flowZoom": 0.75,
   "implementationLanguage": "C",
   "openDialogDefaultPath": "D:\\Documentos\\TREC\\trec_repo\\Inter-4.1\\conveted_split\\Inter-Medium.ttf"
 }
