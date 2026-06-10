@@ -771,6 +771,50 @@
               "heightUnit": "px",
               "children": [
                 {
+                  "objID": "2b5825cd-c116-42f4-a756-aa09dfdcc348",
+                  "type": "LVGLUserWidgetWidget",
+                  "left": 0,
+                  "top": 0,
+                  "width": 960,
+                  "height": 438,
+                  "customInputs": [],
+                  "customOutputs": [],
+                  "style": {
+                    "objID": "e102a36d-3ede-4678-e232-8b94b2382403",
+                    "useStyle": "default",
+                    "conditionalStyles": [],
+                    "childStyles": []
+                  },
+                  "timeline": [],
+                  "eventHandlers": [],
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px",
+                  "children": [],
+                  "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+                  "hiddenFlagType": "literal",
+                  "clickableFlag": true,
+                  "clickableFlagType": "literal",
+                  "flagScrollbarMode": "",
+                  "flagScrollDirection": "",
+                  "scrollSnapX": "",
+                  "scrollSnapY": "",
+                  "checkedStateType": "literal",
+                  "disabledStateType": "literal",
+                  "states": "",
+                  "localStyles": {
+                    "objID": "fdff1d9c-7f37-4b4e-b217-36b615bc611a"
+                  },
+                  "group": "",
+                  "groupIndex": 0,
+                  "userWidgetPageName": "stats_screen",
+                  "userPropertyValues": {
+                    "objID": "120699b5-6bb6-4f1e-f24e-0afd39a95cdf",
+                    "values": {}
+                  }
+                },
+                {
                   "objID": "26a17ee9-0cdf-48a7-f60d-76cb0ed2e640",
                   "type": "LVGLUserWidgetWidget",
                   "left": 0,
