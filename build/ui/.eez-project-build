@@ -13,6 +13,7 @@
     "ui.h",
     "ui_font_inter_bold_200pt.c",
     "ui_font_inter_medium_24pt.c",
+    "ui_image_notion_icon.c",
     "vars.h"
   ]
 }
