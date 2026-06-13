@@ -1,8 +1,14 @@
 {
   "navigation": {
     "selectedUserPageObject": "[TREC.eez-project]:/userPages/0",
+    "selectedUserWidgetObject": "[TREC.eez-project]:/userWidgets/0",
+    "selectedActionObject": "[TREC.eez-project]:/actions/0",
+    "selectedGlobalVariableObject": "[TREC.eez-project]:/variables/globalVariables/4",
     "selectedFontObject": "[TREC.eez-project]:/fonts/1",
-    "subnavigationSelectedItems": {}
+    "selectedBitmapObject": "[TREC.eez-project]:/bitmaps/0",
+    "subnavigationSelectedItems": {
+      "variables-tab/sub-navigation/selected-item": "Global"
+    }
   },
   "layoutModel": {
     "rootEditor": {
@@ -22,7 +28,6 @@
           },
           {
             "type": "border",
-            "selected": 1,
             "size": 240,
             "location": "right",
             "children": [
@@ -116,7 +121,7 @@
             {
               "type": "row",
               "id": "#17d37016-e513-4ba3-952c-fa958c47a22c",
-              "weight": 15,
+              "weight": 18.442748091603054,
               "children": [
                 {
                   "type": "tabset",
@@ -188,11 +193,44 @@
             {
               "type": "tabset",
               "id": "EDITORS",
-              "weight": 65,
-              "selected": 1,
+              "weight": 59.54636384446196,
+              "selected": 4,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
+                {
+                  "type": "tab",
+                  "id": "#baf9401b-ec5c-48cf-a10b-21c90cc50f1c",
+                  "name": "stats_screen",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[TREC.eez-project]:/userWidgets/2",
+                    "permanent": true
+                  },
+                  "icon": "svg:user_widget"
+                },
+                {
+                  "type": "tab",
+                  "id": "#256e2133-8c11-42b3-8295-2bfb3f45a1b5",
+                  "name": "tasks_screen",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[TREC.eez-project]:/userWidgets/1",
+                    "permanent": true
+                  },
+                  "icon": "svg:user_widget"
+                },
+                {
+                  "type": "tab",
+                  "id": "#84910cd5-85e5-4851-b3ec-7314af8f6286",
+                  "name": "pomodoro_screen",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[TREC.eez-project]:/userWidgets/0",
+                    "permanent": true
+                  },
+                  "icon": "svg:user_widget"
+                },
                 {
                   "type": "tab",
                   "id": "#f3c3df2f-6d34-4154-962a-fc9482466d15",
@@ -208,7 +246,7 @@
                 {
                   "type": "tab",
                   "id": "#8501be42-c014-49ad-9f4d-e0a489ba9f28",
-                  "name": "pomodoro",
+                  "name": "main",
                   "component": "editor",
                   "config": {
                     "objectPath": "[TREC.eez-project]:/userPages/0",
@@ -221,7 +259,7 @@
             {
               "type": "row",
               "id": "#f2d5b8a6-9196-4b49-a65d-b1948d90384d",
-              "weight": 20,
+              "weight": 22.01088806393505,
               "children": [
                 {
                   "type": "tabset",
@@ -462,7 +500,7 @@
                 {
                   "type": "tab",
                   "id": "#9f6b7180-5a5c-40dd-bbf2-ac6e2357845f",
-                  "name": "pomodoro",
+                  "name": "main",
                   "component": "editor",
                   "config": {
                     "objectPath": "[TREC.eez-project]:/userPages/0",
@@ -639,7 +677,8 @@
                       "component": "bitmaps",
                       "enableClose": false
                     }
-                  ]
+                  ],
+                  "active": true
                 },
                 {
                   "type": "tabset",
@@ -1081,17 +1120,83 @@
         "0": {
           "0": {},
           "1": {},
-          "7": {
+          "6": {
+            "2": {},
             "$selected": true
           }
         }
       },
       "transform": {
         "translate": {
-          "x": -435.5599478258061,
-          "y": -305.31105753699023
+          "x": -387.0075613353497,
+          "y": -187.38636534682786
         },
-        "scale": 0.75
+        "scale": 0.9
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TREC.eez-project]:/userWidgets/0[flow-state]": {
+      "selectionFront": {},
+      "selectionBack": {
+        "2": {}
+      },
+      "transform": {
+        "translate": {
+          "x": -433.7953559881699,
+          "y": -184.6341381553575
+        },
+        "scale": 0.9
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TREC.eez-project]:/userWidgets/1[flow-state]": {
+      "selectionFront": {},
+      "selectionBack": {
+        "1": {
+          "1": {
+            "1": {}
+          },
+          "2": {}
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -378.77897986087834,
+          "y": -213.33596506105818
+        },
+        "scale": 0.9
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[TREC.eez-project]:/userWidgets/2[flow-state]": {
+      "selectionFront": {},
+      "selectionBack": {
+        "0": {
+          "0": {},
+          "2": {}
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -386.5809055372483,
+          "y": -148.94238264844648
+        },
+        "scale": 0.9
       },
       "timeline": {
         "isEditorActive": false,
@@ -1113,12 +1218,16 @@
   "showComponentDescriptions": true,
   "logsPanelFilter": "all",
   "selectedStylePropertyName": "",
-  "lvglPart": "MAIN",
+  "lvglPart": "INDICATOR",
   "lvglState": "DEFAULT",
-  "lvglExpandedPropertiesGroup": [],
+  "lvglExpandedPropertiesGroup": [
+    "MARGIN",
+    "BACKGROUND",
+    "TEXT"
+  ],
   "showInactiveFlowsInDebugger": true,
   "globalFlowZoom": true,
-  "flowZoom": 0.75,
+  "flowZoom": 0.9,
   "implementationLanguage": "C",
-  "openDialogDefaultPath": "D:\\Documentos\\TREC\\trec_repo\\Inter-4.1\\conveted_split\\Inter-Medium.ttf"
+  "openDialogDefaultPath": "D:\\Documentos\\TREC\\SimpleIconsNotion_40x40.png"
 }
